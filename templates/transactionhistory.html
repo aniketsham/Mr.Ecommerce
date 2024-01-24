@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction History</title>
+</head>
+<body>
+    <form  action="/form_gettransactionhistory" method="post"  style="text-align: center; ">
+        <label><b>Username </b></label>
+        <input type="text" placeholder="Enter Username"  name="uname" required>
+        <br>
+        <input class="btn btn-dark"  type="submit" value="GET TRANSACTION HISTORY">
+    </form>
+
+    <br>
+    <div>
+
+        {{Transactionhistory}}
+    </div>
+</body>
+</html>
